@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.facebook {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #3b5998;
+}
+
+.topic {
+    width: 58%;
+}
+
+.topic a {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 160px;
+}
+
+.topic a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navinput {
+    width: 42%;
+}
+
+.row label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.forms {
+    background-color: #e6ecff;
+    border: 1px solid #000000;
+    font-size: 16px;
+}
+
+small a {
+    color: #99c2ff;
+}
+
+.button {
+    background-color: #0052cc;
+    border: 0px solid #809fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        width: 1110px;
+    }
+    .topic a {
+        margin-left: -10px;
+    }
+}
+
+/*Class of Content CSS*/
+.content {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 1110px;
+    }
+    .form-check {
+        display: grid;
+    }
+}
+
+.logo {
+    float: left;
+    width: 55%;
+    background-color: #e6e6ff;
+    height: 590px;
+
+}
+
+.logo p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #004080;
+    margin: 40px 0px 0px 150px;
+}
+
+.logo img {
+    margin-left: 150px;
+}
+
+.form {
+    float: right;
+    width: 45%;
+    background-color: #e6e6ff;
+}
+
+.col-md-11 {
+    margin-left: -15px;
+}
+
+.form h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form p {
+    font-size: 20px;
+}
+
+.form-group p {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: -22px;
+    color: grey;
+}
+
+.gender p {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.form-check-label {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.small p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.small p a {
+    color: #0040ff;
+}
+
+.signup {
+    background-color: #009933;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.celeb p {
+    margin-top: 35px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}
+
+.quote {
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 13px;
+    color: grey;
+    word-spacing: 10px;
+    margin-top: 650px;
+}
+
+.footer {
+    padding-left: 180px;
+    font-size: 13px;
+    color: grey;
+    margin-top: 30px;
+}
